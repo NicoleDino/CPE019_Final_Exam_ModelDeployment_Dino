@@ -11,7 +11,7 @@ st.write("""
 # Check and predict the weather today!"""
 )
 file=st.file_uploader("Select any weather-related image from your device",type=["jpg","png"])
-A
+
 import cv2
 from PIL import Image,ImageOps
 import numpy as np
